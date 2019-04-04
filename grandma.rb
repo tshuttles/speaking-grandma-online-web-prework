@@ -14,9 +14,9 @@
 
 def speak_to_grandma(phrase)
   if phrase == "hi grandma".downcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "HI GRANDMA".upcase
-    puts "NO, NOT SINCE 1938"
+    return "NO, NOT SINCE 1938"
   else phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   end
